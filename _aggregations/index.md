@@ -66,7 +66,7 @@ GET _search
 
 If you’re only interested in the aggregation result and not in the results of the query, set `size` to 0.
 
-In the `aggs` property (you can use `aggregations` if you want), you can define any number of aggregations. Each aggregation is defined by its name and one of the types of aggregations that OpenSearch supports.
+In the `aggs` property (you can use `aggregations` if you want), you can define any number of aggregations. Each aggregation is defined by its name and one of the types of aggregations that OpenSearch support.
 
 The name of the aggregation helps you to distinguish between different aggregations in the response. The `AGG_TYPE` property is where you specify the type of aggregation.
 
